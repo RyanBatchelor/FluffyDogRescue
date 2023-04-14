@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+section{
+    border: 1px solid black;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.logo-text{
+    margin-bottom: 2rem;
+}
+
+.start-fostering{
+    height: 29rem;
+    border: 1px solid black;
+    padding: 5.6rem 4.5rem;
+    line-height: 1.5;
+}
+
+.start-fostering-btn{
+    padding: 1rem 1.5rem;
+    background-color: #2D4DF2;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 40px;
+    margin-top: 2rem;
+}
+
+.why-foster{
+    padding: 5.6rem 4.5rem;
+}
+
+.why-foster-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-foster-card{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem 1.2rem;
+    line-height: 2;
+    margin: 1rem;
+}
+
+.first-card{
+    color: #2D4DF2;
+}
+
+.saves-lives-card{
+    border: 1px solid #2D4DF2;
+}
+
+.second-card{
+    color: #018ce1;
+}
+
+.teach-socialization-card{
+    border: 1px solid #018ce1;
+}
+
+.third-card{
+    color: #DA33BF;
+}
+
+.experience-card{
+    border: 1px solid #DA33BF;
+}
+
+.requirements{
+    padding: 5.6rem 4.5rem;
+}
+.requirement-section{
+    border: 1px black solid;
+}
+
+.requirements-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.requirement-name{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.requirment-card{
+    border-radius: 20px;
+    padding: 1rem 1.2rem;
+    line-height: 2;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+.how-it-works{
+    padding: 5.6rem 4.5rem;
+}
+
+.how-it-works-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.steps-card{
+    text-align: center;
+    padding: 1rem;
+    line-height: 2.5;
+}
+
+.step-img{
+    border-radius: 50%;
+}
+
+.step1-img{
+    border: 3px solid #2D4DF2;
+}
+
+.step2-img{
+    border: 3px solid #018ce1;
+}
+
+.step3-img{
+    border: 3px solid #DA33BF;
+}
+
+.step4-img{
+    border: 3px solid #2D4DF2;
+}
+
+.step1{
+  color: #2D4DF2;  
+}
+
+.step2{
+    color: #018ce1;
+}
+
+.step3{
+    color: #DA33BF;
+}
+
+.step4{
+    color: #2D4DF2;
+}
+
+.benefits{
+    padding: 5.6rem 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+li{
+    font-size: 2rem;
+    margin: 2rem;
+    line-height: 2;
+}
+
+.benefits-img{
+    border-radius: 40px;
+}
+
+.adopt-faq{
+    padding: 5.6rem 4.5rem;
+}
+
+.adopt-faq-content{
+    display: grid;
+    grid-template: 
+    'question1 question2 question3'
+    'answer1    answer2   answer3';
+}
+
+.question1,
+.question2,
+.question3,
+.answer1,
+.answer2,
+.answer3{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.question1{
+    grid-area: question1;
+}
+
+.answer1{
+    grid-area: answer1;
+}
+
+.question2{
+    grid-area: question2;
+}
+
+.answer2{
+    grid-area: answer2;
+}
+
+.question3{
+    grid-area: question3;
+}
+
+.answer3{
+    grid-area: answer3;
+}
+
+.success-stories{
+    padding: 5.6rem 4.5rem;
+}
+
+.success-story-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.contact-us{
+    padding: 5.6rem 4.5rem;
+}
+
+.contact-us-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.contact-card{
+    text-align: center;
+    line-height: 2;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.phone{
+    border: 2px solid #2D4DF2;
+}
+
+.email{
+    border: 2px solid #018ce1;
+}
+
+.location{
+    border: 2px solid #DA33BF;
+}
